@@ -2,7 +2,7 @@
     "name": "Localizador",
     "short_name": "Local",
     "description": "Descubra o país e as informações de habitat com base na sua localização atual.",
-    "start_url": "/plant_locator.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#1f2937",
     "theme_color": "#059669",

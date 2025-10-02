@@ -3,10 +3,8 @@ const CACHE_NAME = 'habitat-locator-v1';
 // Arquivos essenciais para o funcionamento offline (o 'shell' do aplicativo)
 const urlsToCache = [
     '/',
-    '/plant_locator.html', 
+    '/index.html', 
     '/manifest.json',
-    // O Service Worker tentará cachear o CSS/JS do CDN na primeira requisição 'fetch' 
-    // mas listamos os arquivos locais do 'shell' aqui.
 ];
 
 // Instalação do Service Worker: Caching do App Shell
