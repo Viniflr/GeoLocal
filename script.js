@@ -133,8 +133,8 @@ locateButton.addEventListener('click', runLocator);
 // Registro do Service Worker (PWA)
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(reg => console.log('Service Worker registrado com sucesso:', reg.scope))
-            .catch(err => console.error('Falha no registro do Service Worker:', err));
+        navigator.serviceWorker.register('sw.js')
+            .then(reg => console.log('Service Worker registrado!', reg))
+            .catch(err => console.error('Falha ao registrar o Service Worker:', err));
     });
 }
