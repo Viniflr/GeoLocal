@@ -2,9 +2,9 @@
 const CACHE_NAME = 'habitat-locator-v1';
 // Arquivos essenciais para o funcionamento offline (o 'shell' do aplicativo)
 const urlsToCache = [
-    '/',
-    '/index.html', 
-    '/manifest.json',
+    './',
+    'index.html', 
+    'manifest.json',
 ];
 
 // Instalação do Service Worker: Caching do App Shell
